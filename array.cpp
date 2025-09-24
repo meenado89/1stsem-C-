@@ -39,7 +39,7 @@ using namespace std;
 // }
 
 // 3
-// prince's code to get loop
+//prince's code to get loop
 // int main() {
 //     int num;
 //     cout << "Enter a number: ";
@@ -60,17 +60,17 @@ using namespace std;
 
 // FOR MULTIPLICATION USER INPUT
 
-// int main() {
-//     int num;
-//     cout << "Enter a random number: ";
-//     cin >> num;
-//     cout << "Multiplication table of " << num << ":" << endl;
-//     for (int i = 1; i <= 10; i++) {
-//         cout << num << " x " << i << " = " << num * i << endl;
-//     }
+int main() {
+    int num;
+    cout << "Enter a random number: ";
+    cin >> num;
+    cout << "Multiplication table of " << num << ":" << endl;
+    for (int i = 1; i <= 10; i++) {
+        cout << num << " x " << i << " = " << num * i << endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 // 5
