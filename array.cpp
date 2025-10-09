@@ -102,3 +102,88 @@ using namespace std;
 //     return 0 ;
 // }
  
+
+//1D ARRAY
+// int main()
+// {
+//     int marks[5] = {85, 90, 78, 92, 88};  // 1D Array
+    
+//     cout<<"Student Marks:"<<endl;
+//     for(int i = 0; i < 5; i++)
+//     {
+//         cout<<"Subject "<<i+1<<": "<<marks[i]<<endl;
+//     }
+    
+//     return 0;
+// }
+
+//2D ARRAYS
+// int main()
+// {
+//     int matrix[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}};  // 2D Array
+    
+//     cout<<"Matrix:"<<endl;
+//     for(int i = 0; i < 3; i++)
+//     {
+//         for(int j = 0; j < 3; j++)
+//         {
+//             cout<<matrix[i][j]<<" ";
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0;
+// }
+
+
+
+// INDEX USER INPUT TAKE FIRST ELEMENT THEN INCREMENT
+
+// int main()
+// {
+//     int index[100];
+//     int element;
+//  cout<<"enter the Index Value=  "<<endl;
+//  cin>>index;
+//  cout<<"enter the initial element=  "<<endl;
+//  cin>>element;
+//     int array [index]={element};
+//     for(int i=1; i<100; i++)
+    
+//     {
+
+//  cout<<"array"<<"["<<index<<"]"<<"= "<<"{"<<element;
+//     }
+    
+    
+//     return 0;
+// }   
+
+
+
+// int main() {
+//     int index;    // size of array
+//     int element;  // element to fill
+
+//     cout << "Enter the size of the array: ";
+//     cin >> index;
+
+//     cout << "Enter the initial element: ";
+//     cin >> element;
+
+//     int array[index]; // Variable Length Array (allowed in some compilers)
+
+//     // Fill array with the element
+//     for (int i = 0; i < index; i++) {
+//         array[i] = element;
+//     }
+
+//     // Print array
+//     for (int i = 0; i < index; i++) {
+//         cout << "array[" << i << "] = " << array[i] << endl;
+//     }
+
+//     return 0;
+// }
+
+
