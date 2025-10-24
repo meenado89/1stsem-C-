@@ -11,9 +11,9 @@ int main() {
         "Test Engineering"
     };
 
-    int marks[totalSubjects];
-    int totalMarks = 0;
-    int maxMarks = 30 * totalSubjects;
+    float marks[totalSubjects];
+    float totalMarks = 0;
+    float maxMarks = 30 * totalSubjects;
 
     cout << "=== MARKS ENTRY ===" << endl;
 
