@@ -85,49 +85,49 @@ cout<<"Hello World";
 
 // NESTED IF(IF INSIDE IF  STATEMENT)
 
-int main()
-{
-    int marks;
+// int main()
+// {
+//     int marks;
 
-    cout << "Enter Your Marks:- ";
+//     cout << "Enter Your Marks:- ";
 
-    cin >> marks;
+//     cin >> marks;
 
-    if (marks >= 90 && marks <= 100)
+//     if (marks >= 90 && marks <= 100)
 
-    {
-        cout << "Grade A";
-    }
-    else
-    {
-        if (marks >= 75 && marks >= 89)
-        {
+//     {
+//         cout << "Grade A";
+//     }
+//     else
+//     {
+//         if (marks >= 75 && marks >= 89)
+//         {
 
-            cout << "Grade B";
-        }
-        else
-        {
+//             cout << "Grade B";
+//         }
+//         else
+//         {
 
-            if (marks >= 50 && marks >= 74)
-            {
+//             if (marks >= 50 && marks >= 74)
+//             {
 
-                cout << "Grade C";
-            }
-            else
-            {
+//                 cout << "Grade C";
+//             }
+//             else
+//             {
 
-                if (marks >= 50 && marks >= 35)
-                {
+//                 if (marks >= 50 && marks >= 35)
+//                 {
 
-                    cout << "Grade D";
-                }
-                else
-                {
-                    cout << "Failed";
-                }
-            }
-        }
-    }
+//                     cout << "Grade D";
+//                 }
+//                 else
+//                 {
+//                     cout << "Failed";
+//                 }
+//             }
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }

@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// OP 1 GETTING SIMPLE VALUE AND REPITATIONS
+// OP 1 GETTING SIMPLE VALUE AND REPETITIONS
 // int main()
 // {
     // VALUE OF i
