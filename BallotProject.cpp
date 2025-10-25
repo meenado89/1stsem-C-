@@ -56,7 +56,7 @@ int main() {
         candidates[i].display();
     }
 
-    // Find the winner (exclude NOTA)
+    // Find the winner (exclude NOTA) 
     int winnerIndex = 0;
     for (int i = 1; i < 5; i++) { // only real candidates
         if (candidates[i].votes > candidates[winnerIndex].votes) {
@@ -68,7 +68,7 @@ int main() {
          << " with " << candidates[winnerIndex].votes << " votes!\n";
           cout << "------------------------\n";
 
-    // Optional: text-based graph of votes
+    // text-based graph of votes
     cout << "\nVote Distribution Graph:\n";
     for (int i = 0; i < 6; i++) {
         cout << candidates[i].name << ": ";
