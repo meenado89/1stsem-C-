@@ -9,7 +9,7 @@ public:
     {
         if (a > b)
         {
-            /* code */
+           
             cout << "a is greater than b \n";
         }
         else if (a < b)
