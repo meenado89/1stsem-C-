@@ -20,8 +20,8 @@ using namespace std;
 // CALL BY VALUE 
 // int swapping (int a, int b){
 //     int temp = a ;
-//      a = b;      a=20  ,b=10 ,  c=10
-//      b = temp;   c=a,a=b,b=c
+//      a = b;      
+//      b = temp;  
 //      return 0;     
 // }
 
