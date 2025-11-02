@@ -1,78 +1,48 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom right, #9ae2ff, #510d84);
-  color: #333;
-}
-
-.candidates {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.candidates h1 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #222;
-}
-
-.candidate-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  justify-items: center;
-}
-
-.candidate-card {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  width: 250px;
-  padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.candidate-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-.candidate-card img {
+/* --- Navbar Styling --- */
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;  
+  height: 4rem;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 15px;
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 999;
 }
 
-.candidate-card h2 {
-  margin-top: 15px;
-  color: #444;
+.navi {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  margin-right: 6rem;
 }
 
-.tagline {
-  color: #777;
-  font-style: italic;
-  margin: 5px 0 10px;
-}
-
-.bio {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.result-btn {
-  margin-top: 40px;
-  padding: 15px 40px;
-  border: none;
-  border-radius: 30px;
-  background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+.navi li {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
+  color: #333;
   cursor: pointer;
-  transition: 0.3s;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.result-btn:hover {
-  background: linear-gradient(135deg, #dcedc1, #a8e6cf);
-  transform: scale(1.05);
+.navi li:hover {
+  
+  transform: translateY(-2px);
+  
+}
+
+/* 
+.main {
+  padding-top: 5rem;
+} */
+
+.maincontiner{
+  padding-top: 5rem;
+  margin: 4rem;
 }
