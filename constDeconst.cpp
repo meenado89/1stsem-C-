@@ -17,3 +17,4 @@ int main() {
     cout << "Inside main function" << endl;
     return 0;
 }
+2
